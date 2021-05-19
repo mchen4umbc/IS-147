@@ -41,11 +41,6 @@ public class Note
         return this.label;
     }
 
-    public void setName(String label)
-    {
-        this.label = label;
-    }
-
     public String getSummary()
     {
         return dateCreated + " Label: " + this.label;
